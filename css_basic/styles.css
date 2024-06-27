@@ -56,3 +56,13 @@ aside {
 header, footer, main, article, aside {
     border: 1px solid #ccc;
 }
+
+/* For smartphones */
+@media (max-width: 599px) {
+    body {
+      background-color: lightcoral;
+    }
+    h1 {
+      font-size: 1.5em;
+    }
+  }
