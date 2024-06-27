@@ -66,3 +66,49 @@ header, footer, main, article, aside {
       font-size: 1.5em;
     }
   }
+
+ .logo {
+    font-size: 2em; /* Adjust size as desired */
+    margin-right: 10px; /* Add spacing between logo and menu items */
+  }
+  
+  /* Example additional styling */
+  body {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text color */
+  }
+  
+  header {
+    background-color: #007bff; /* Blue header background */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  article {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  } 
